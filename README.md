@@ -1,6 +1,3 @@
-# security_hardening_audit
-Linux security hardening audit
-
 # Security Hardening Audit
 
 ## Overview
