@@ -33,18 +33,15 @@ Mail utility (optional): For report/alert delivery.
 
 ## Installation
 Clone the repository:
-
+```
 bash
 git clone https://github.com/Sushilsin/security_hardening_audit.git
 cd security_hardening_audit
 chmod +x *.sh
-
-Usage
-To perform a full security audit and basic hardening:
-
-bash
 sudo ./security_audit.sh
-The script produces a report (e.g., /var/log/security_audit_report.html), summarizing the findings.
+
+```
+The script produces a report (e.g., /security_hardening_audit/security_audit_report.html), summarizing the findings.
 
 For custom checks, adjust the configuration file or edit the script to add new validation logic.
 
