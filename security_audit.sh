@@ -3,7 +3,7 @@
 
 ##############################################################################
 
-#            Linux Security Audit and Hardening Script (HTML Output)         #
+#            Linux Security Audit Script (HTML Output)         #
 
 #        Includes hostname, IP address, and date at top of report           #
 
@@ -45,7 +45,7 @@ cat << EOF > "$REPORT_FILE"
 
 <head>
 
-<title>Security Audit and Hardening Report</title>
+<title>Security Audit Report</title>
 
 <meta charset="utf-8">
 
@@ -67,7 +67,7 @@ pre { background: #f4f4f4; padding: 10px; border-radius: 6px; font-size: 14px; }
 
 <body>
 
-<h1>Security Audit and Hardening Report</h1>
+<h1>Security Audit Report</h1>
 
 <div class="meta">
 
@@ -650,10 +650,10 @@ done
 
 ##############################################################################
 
-echo "<p><em>Security audit and hardening completed. See details above.</em></p>" >> "$REPORT_FILE"
+echo "<p><em>Security audit completed. See details above.</em></p>" >> "$REPORT_FILE"
 
 echo "</body></html>" >> "$REPORT_FILE"
 
 
-echo "Security audit and hardening completed. See $REPORT_FILE for details."
+echo "Security audit completed. See $REPORT_FILE for details."
 
